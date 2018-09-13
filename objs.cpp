@@ -8,7 +8,7 @@
 #include <QProgressBar>
 #include <QSlider>
 #include <QDial>
-
+//Creates volume dial to change volume
 void MainWindow::volslidinit(){
     dial = new QDial(this);
     dial->setRange(0, 100);
